@@ -1,0 +1,628 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+.speaker-img {
+	width:50%;
+	 
+}
+.speaker-about {
+	width:50% ;
+	 
+}
+.speaker1 .speaker-img {
+	width:50% ;
+	 
+}
+.speaker1 .speaker-about {
+	width:50% ;
+	 
+}
+
+.navbar {
+    /*margin: 0 auto;*/
+    width: 53%;
+}
+
+.navbar-brand {
+ /*margin-left: 17rem;*/
+ padding-bottom: 19px;
+ padding-top: 19px;
+}
+ .container > h2 {
+ color: #25a9df;
+ font-size: 32px;
+ padding: 7%;
+ text-align: center;
+}
+ .tab-div {
+ height: 45px;
+ margin: 3px auto 9px;
+ padding-bottom: 12px;
+ width: 98%;
+}
+.boton.columna.c-12.medium-12.small-12 {
+ left: -37px;
+ margin: 0 auto;
+ position: relative;
+ width: 198px;
+}
+ .span.c-4 {
+ margin-right: 5px;
+ width: 28%;
+}
+.tab-div {
+ height: 45px;
+ margin: 3px auto 10px;
+ padding-bottom: 12px;
+ width: 99%;
+}
+.tab-info2 {
+ background: none repeat scroll 0 0 #25a9df;
+ color: #fff;
+ float: left;
+ height: 38px;
+ padding: 12px;
+ width: 73%;
+}
+.tab-info {
+ background: none repeat scroll 0 0 #1b75ba;
+ color: #fff;
+ float: left;
+ height: 38px;
+ padding: 12px;
+ width: 73%;
+}
+.width {
+    margin: 0 auto 20px;
+    min-width: 300px;
+    width: 90%;
+}
+ /* line 245, style.less */
+  .columna.medium-1 {
+    width: 6.3%;
+  }
+  /* line 246, style.less */
+  .columna.medium-2 {
+    width: 14.6%;
+  }
+  /* line 247, style.less */
+  .columna.medium-3 {
+    width: 22.9%;
+  }
+  /* line 248, style.less */
+  .columna.medium-4 {
+    width: 31.2%;
+  }
+  /* line 249, style.less */
+  .columna.medium-5 {
+    width: 39.5%;
+  }
+  /* line 250, style.less */
+  .columna.medium-6 {
+    width: 47.8%;
+  }
+  /* line 251, style.less */
+  .columna.medium-7 {
+    width: 56.1%;
+  }
+  /* line 252, style.less */
+  .columna.medium-8 {
+    width: 64.4%;
+  }
+  /* line 253, style.less */
+  .columna.medium-9 {
+    width: 72.7%;
+  }
+  /* line 254, style.less */
+  .columna.medium-10 {
+    width: 81%;
+  }
+  /* line 255, style.less */
+  .columna.medium-11 {
+    width: 89.3%;
+  }
+  /* line 256, style.less */
+  .columna.medium-12 {
+    width: 97.6%;
+  }
+  /* line 259, style.less */
+  .c-10.right {
+    width: 97.6%;
+  }
+  /* line 263, style.less */
+  .table .renglon div {
+    border: 1px solid #1aa2dc;
+    font: 12px / 12px 'dscoop';
+  }
+  /* line 264, style.less */
+  .table .renglon div.text-center {
+    background: #1aa2dc;
+    color: #ffffff;
+    font: 14px / 14px 'dscoop bold';
+  }
+  /* line 270, style.less */
+  .instrucciones h2 {
+    width: 47.8% !important;
+    float: none;
+    margin: 0 auto 20px auto;
+  }
+  /* line 271, style.less */
+  .instrucciones .subtitulo {
+    margin: 0;
+    text-align: center;
+  }
+  /* line 276, style.less */
+  form .renglon > .c-2 {
+    /*width: 47.8%;*/
+    margin-bottom: 20px;
+  }
+  /* line 277, style.less */
+  form .renglon > .c-2 > .c-10 {
+    width: 81%;
+  }
+  /* line 279, style.less */
+  form .renglon > .c-1 {
+    width: 14.6%;
+  }
+  /* line 280, style.less */
+  form .renglon > .c-5 {
+    width: 31.2%;
+  }
+  /* line 284, style.less */
+  form .acepto {
+    margin: 0 auto 20px auto;
+    text-align: center;
+  }
+  /* line 286, style.less */
+  form input[type='submit'] {
+    display: block;
+    margin: auto;
+    float: none;
+  }
+}
+@media (min-width: 414px) and (max-width: 767px) {
+.main-container3
+{
+background:none !important;
+}
+
+}
+
+@media (min-width: 414px) and (max-width: 736px) {
+ .speaker-img {
+	width:100%;
+	 
+}
+
+.speaker-about {
+	width:100% ;
+	 
+}
+.speaker1 .speaker-img {
+	width:100% ;
+	 
+}
+.speaker1 .speaker-about {
+	width:100% ;
+	 
+}
+ .left-content {
+ color: #fff;
+ float: left;
+ font-size: 18px;
+ height: auto;
+ padding: 30px 15px;
+ text-align: left;
+ width: 92%;
+}
+ .right-content {
+ color: #fff;
+ float: left;
+ font-size: 18px;
+ height: auto;
+ padding: 30px 15px;
+ text-align: left;
+ width: 93%;
+}
+.cmp-logo {
+ float: left;
+ height: auto;
+ text-align: center;
+ width: 100%;
+}
+
+.button1 {
+ height: 76px;
+ margin: 0 auto 10px;
+ text-align: center;
+ width: 39%;
+}
+.span.c-3 {
+ width: 45%;
+}
+.span.c-3 {
+ margin-right: 6px;
+}
+.columna.c-12 {
+ width: 100%;
+}
+.span.c-6 {
+ width: 100%;
+}
+.span.c-4 {
+ margin-right: 5px;
+ width: 30%;
+}
+.span.c-6 .c-4 {
+ margin-left: 2px;
+ width: 27%;
+}
+.span.c-6 .c-12 {
+ width: 91%;
+}
+.navbar {
+ float: right;
+ margin-bottom: 11px;
+ margin-right: 22px;
+}
+.navbar-header {
+ float: none;
+ text-align: center;
+}
+.tab-div {
+ height: 45px;
+ margin: 3px auto 10px;
+ padding-bottom: 12px;
+ width: 97%;
+}
+.tab-info {
+ background: none repeat scroll 0 0 #1b75ba;
+ color: #fff;
+ float: left;
+ height: 53px;
+ padding: 5px;
+ width: 69%;
+}
+.tab-info2 {
+ background: none repeat scroll 0 0 #25a9df;
+ color: #fff;
+ float: left;
+ height: 53px;
+ padding: 5px;
+ width: 69%;
+}
+.speaker-about > p {
+ font-size: 18px;
+ margin: 0 auto;
+ text-align: center;
+ width: 90%;
+}
+
+.banner-img {
+    background: none repeat scroll 0 0 #fff;
+    height: auto;
+    /*margin: 205px auto -37px;*/
+    
+    margin: 90px auto -37px;
+    text-align: center;
+    width: 100%;
+}.navbar {
+    margin: 0 auto;
+    width: 82%;
+}
+}
+
+@media (min-width: 481px) and (max-width: 519px) {
+.navbar {
+    margin: 0 auto;
+    width: 89%;
+}
+.main-container3
+{
+background:none !important;
+}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+.main-container3
+{
+ background:none !important;
+}
+ .speaker-img {
+	width:100%;
+	 
+}
+.speaker-about {
+	width:100% ;
+	 
+}
+.speaker1 .speaker-img {
+	width:100% ;
+	 
+}
+.speaker1 .speaker-about {
+	width:100% ;
+	 
+}
+select[name="area"] {
+    margin-top: 20px;
+}
+.button1
+{
+width:70% !important;
+}
+
+.renglon.clearfix.acepto div {
+    text-align: center;
+}
+.span.c-2 {
+    width: 145px !important;
+}
+.columna.c-1 {
+  width: 21.3%;
+   margin-bottom: 15px;
+}
+
+label.columna.c-8 {
+    margin-top: 0px;
+}
+
+ .navbar {
+ margin: 0 22px 0 auto;
+ width: 100% !important;
+}
+.banner-img {
+    background: none repeat scroll 0 0 #fff;
+    height: auto;
+    margin: 218px auto -37px !important;
+    text-align: center;
+    width: 100%;
+}
+ .boton.columna.c-12.medium-12.small-12.agenda-btn {
+ margin-left: -70px;
+ width: 268px;font-size: 23px;
+}
+.left-content {
+ color: #fff;
+ float: left;
+ font-size: 18px;
+ height: auto;
+ padding: 30px 15px;
+ text-align: left;
+ width: 92%;
+}
+ .right-content {
+ color: #fff;
+ float: left;
+ font-size: 18px;
+ height: auto;
+ padding: 30px 15px;
+ text-align: left;
+ width: 93%;
+}
+.cmp-logo {
+ float: left;
+ height: auto;
+ text-align: center;
+ width: 100%;
+}
+
+.speaker-about > p {
+ font-size: 18px;
+ margin: 0 auto;
+ text-align: center;
+ width: 90%;
+}
+.button1 {
+ height: 76px;
+ margin: 0 auto 10px;
+ text-align: center;
+ width: 39%;
+}
+
+.span.c-3 {
+    margin-right: 8px;
+}
+.span.c-3 {
+    width: 22%;
+}
+.columna.c-12 {
+ width: 100%;
+}
+.span.c-6 {
+ width: 50%;
+}
+.span.c-4 {
+ margin-right: 5px;
+ width: 47%;
+}
+.span.c-6 .c-4 {
+ width: 23%;
+}
+.cc .span.c-11 {
+ margin-left: 9px;
+}
+.span.c-4.medium-4.small-4.cc {
+ margin-left: 0;
+ margin-top: -10px;
+ width: 51%;
+}
+
+.span.c-6 .c-12 {
+ width: 91%;
+}
+
+.navbar-header {
+ float: none;
+ text-align: center;
+}
+.navbar ul li {
+float:none;
+text-align:center;
+}
+.tab-div {
+ height: 45px;
+ margin: 3px auto 10px;
+ padding-bottom: 12px;
+ width: 98%;
+}
+.tab-info {
+ background: none repeat scroll 0 0 #1b75ba;
+ color: #fff;
+ float: left;
+ height: 38px;
+ padding: 12px;
+ 
+ width: 62%;
+}
+.tab-info2 {
+ background: none repeat scroll 0 0 #25a9df;
+ color: #fff;
+ float: left;
+ height: 38px;
+ padding: 12px;
+ width: 62%;
+}
+}
+@media (max-width: 480px) {
+ .main-container3{background:none !important;}
+ .left-content{width:100% !important;}
+ .right-content{width:100% !important;}
+.button1{width:68% !important;}
+ .speaker-img {
+	width:100%;
+	 
+}
+.speaker-about {
+	width:100% ;
+	 
+}
+.speaker1 .speaker-img {
+	width:100% ;
+	 
+}
+.speaker1 .speaker-about {
+	width:100% ;
+	 
+}
+  /* line 296, style.less */
+  .columna.small-1 {
+    width: 6.3%;
+  }
+  /* line 297, style.less */
+  .columna.small-2 {
+    width: 14.6%;
+  }
+  /* line 298, style.less */
+  .columna.small-3 {
+    width: 22.9%;
+  }
+  /* line 299, style.less */
+  .columna.small-4 {
+    width: 31.2%;
+  }
+  /* line 300, style.less */
+  .columna.small-5 {
+    width: 39.5%;
+  }
+  /* line 301, style.less */
+  .columna.small-6 {
+    width: 47.8%;
+  }
+  /* line 302, style.less */
+  .columna.small-7 {
+    width: 56.1%;
+  }
+  /* line 303, style.less */
+  .columna.small-8 {
+    width: 64.4%;
+  }
+  /* line 304, style.less */
+  .columna.small-9 {
+    width: 72.7%;
+  }
+  /* line 305, style.less */
+  .columna.small-10 {
+    width: 81%;
+  }
+  /* line 306, style.less */
+  .columna.small-11 {
+    width: 89.3%;
+  }
+  /* line 307, style.less */
+  .columna.small-12 {
+    width: 97.6%;
+  }
+  /* line 312, style.less */
+  .span.small-1 {
+    width: 8.3%;
+  }
+  /* line 313, style.less */
+  .span.small-2 {
+    width: 16.6%;
+  }
+  /* line 314, style.less */
+  .span.small-3 {
+    width: 24.9%;
+  }
+  /* line 315, style.less */
+  .span.small-4 {
+    width: 31%;
+  }
+  /* line 316, style.less */
+  .span.small-5 {
+    width: 41.5%;
+  }
+  /* line 317, style.less */
+  .span.small-6 {
+    width: 49.8%;
+  }
+  /* line 318, style.less */
+  .span.small-7 {
+    width: 58.1%;
+  }
+  /* line 319, style.less */
+  .span.small-8 {
+    width: 66.4%;
+  }
+  /* line 320, style.less */
+  .span.small-9 {
+    width: 74.7%;
+  }
+  /* line 321, style.less */
+  .span.small-10 {
+    width: 83%;
+  }
+  /* line 322, style.less */
+  .span.small-11 {
+    width: 91.3%;
+  }
+  /* line 323, style.less */
+  .span.small-12 {
+    width: 99.6%;
+  }
+  /* line 329, style.less */
+  .table .renglon div {
+    padding: 4px;
+    border: 1px solid #1aa2dc;
+    overflow: hidden;
+  }
+  /* line 330, style.less */
+  .table .renglon div.text-center {
+    background: #1aa2dc;
+    color: #ffffff;
+    font: 16px / 16px 'dscoop bold';
+  }
+  /* line 331, style.less */
+  .table .renglon div:nth-child(n+4) {
+    display: none;
+  }
+  /* line 339, style.less */
+  input {
+    font: 12px / 14px 'dscoop regular';
+  }
+  /* line 340, style.less */
+  label {
+    font: 10px / 12px 'dscoop regular';
+  }
+}
+
+ 
