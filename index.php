@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="cleartype" content="on">
@@ -16,14 +15,19 @@
 	<div id="container">
 	  <header>
 		<div class="container">
-		  <div class="navbar-header"> <a href="index.html" class="navbar-brand" style="padding-top: 19px; padding-bottom: 19px;"> <img src="img/logo.png" alt=""> </a> </div>
-		  <div class="navbar">
-			<ul>
-			  <li><a href="#main-container4">Speakers</a></li>
-			  <li><a href="#container6">Agenda</a></li>
-			  <li class="active"><a href="#container5">Registrate</a></li>
-			</ul>
-		  </div>
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand" style="padding-top: 19px; padding-bottom: 19px;">
+					<img src="img/logo.png" alt="">
+				</a>
+				<img src="img/expografica.jpg" alt="">
+			</div>
+			<div class="navbar">
+				<ul>
+					<li><a href="#main-container4">Speakers</a></li>
+					<li><a href="#container6">Agenda</a></li>
+					<li><a href="#container5">Registrate</a></li>
+				</ul>
+			</div>
 		</div>
 	  </header>
 	  <div class="main-container">
@@ -51,14 +55,14 @@
 	  <div class="main-container3">
 		<div class="container">
 		  <h2>Patrocinadores</h2>
-		  <div class="cmp-logo"><img src="img/cmpny1.png"></div>
-		  <div class="cmp-logo"><img src="img/cmpny2.png"></div>
-		  <div class="cmp-logo"><img src="img/cmpny3.png"></div>
-		  <div class="cmp-logo"><img src="img/cmpny4.png"></div>
-		  <div class="cmp-logo"><img src="img/cmpny5.png"></div>
-		  <div class="cmp-logo"><img src="img/cmpny6.png"></div>
-		  <div class="cmp-logo"><img src="img/cmpny7.png"></div>
-		  <div class="cmp-logo"><img src="img/cmpny8.png"></div>
+		  <div class="cmp-logo"><img src="img/sponsor-hp.jpg"></div>
+		  <div class="cmp-logo"><img src="img/sponsor-agc.jpg"></div>
+		  <div class="cmp-logo"><img src="img/sponsor-sun.jpg"></div>
+		  <div class="cmp-logo"><img src="img/sponsor-horizon.jpg"></div>
+		  <div class="cmp-logo"><img src="img/sponsor-kolbus.jpg"></div>
+		  <div class="cmp-logo"><img src="img/sponsor-mitsubishi.jpg"></div>
+		  <div class="cmp-logo"><img src="img/sponsor-xmpie.jpg"></div>
+		  <div class="cmp-logo"><img src="img/sponsor-scodix.jpg"></div>
 		</div>
 	  </div>
 	  <section id="main-container4">
@@ -155,222 +159,214 @@
 		<div class="width clearfix">
 		 <form method="post" accept-charset="utf-8" class="columna c-12 small-12" action="RegistraInfo.php">
 
-							<div class="renglon clearfix">
+			<div class="renglon clearfix">
 
-								<div class="span c-6">
-									<input type="text" data-validation="required" name="nombre" class="span c-11 primer_campo">
-									<label for="nombre" class="span c-11">Nombre</label>
-								</div><!-- span c-6 -->
-								<div class="span c-3">
-									<input type="text" data-validation="required" name="apellido-paterno" class="span c-11">
-									<label for="apellido-paterno" class="span c-11">Apellido paterno</label>
-								</div><!-- span c-3 -->
-								<div class="span c-3">
-									<input type="text" name="apellido-materno" class="span c-12">
-									<label for="apellido-materno" class="span c-12">Apellido materno</label>
-								</div><!-- span c-3 -->
+				<div class="span c-6">
+					<input type="text" data-validation="required" name="nombre" class="span c-11 primer_campo">
+					<label for="nombre" class="span c-11">Nombre</label>
+				</div><!-- span c-6 -->
+				<div class="span c-3">
+					<input type="text" data-validation="required" name="apellido-paterno" class="span c-11">
+					<label for="apellido-paterno" class="span c-11">Apellido paterno</label>
+				</div><!-- span c-3 -->
+				<div class="span c-3">
+					<input type="text" name="apellido-materno" class="span c-12">
+					<label for="apellido-materno" class="span c-12">Apellido materno</label>
+				</div><!-- span c-3 -->
 
-							</div><!-- renglon -->
+			</div><!-- renglon -->
 
-							<div class="renglon clearfix">
+			<div class="renglon clearfix">
 
-								<div class="span c-4 medium-4 small-4">
-									<input type="email" data-validation="email" name="correo" class="span c-11">
-									<label for="correo" class="span c-11">Correo electrónico</label>
-								</div><!-- span c-3 -->
-								<div class="span c-4 medium-4 small-4">
-									<input type="tel" data-validation="required" name="telefono" class="span c-11">
-									<label for="telefono" class="span c-11">Teléfono</label>
-								</div><!-- span c-3 -->
-								<div class="span c-4 medium-4 small-4">
-									<input type="tel" name="celular" class="span c-12 medium-12 small-12">
-									<label for="celular" class="span c-12 medium-12 small-12">Celular</label>
-								</div><!-- span c-3 -->
-
-
-							</div><!-- renglon -->
-
-							<div class="renglon clearfix">
-
-								<div class="span c-6">
-									<input type="text" data-validation="required" name="empresa" class="span c-11">
-									<label for="empresa" class="span c-11">Empresa</label>
-								</div><!-- span c-6 -->
-								<div class="span c-6">
-									<input type="text" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" value="dd" name="dia" class="span c-4">
-									<input type="text" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" value="mm" name="mes" class="span c-4">
-									<input type="text" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" value="aaaa" name="anio" class="span c-4">
-									<label for="nacimiento" class="span c-12">Fecha de nacimiento</label>
-								</div><!-- span c-6 -->
-
-							</div><!-- renglon -->
-
-							<div class="renglon clearfix">
-
-								<div class="span c-6">
-									<input type="text" data-validation="required" name="giro" class="span c-11">
-									<label for="giro" class="span c-11">Giro</label>
-								</div><!-- span c-3 -->
-								<div class="span c-6">
-									<input type="text" data-validation="required" name="cargo" class="span c-12">
-									<label for="cargo" class="span c-12">Cargo</label>
-								</div><!-- span c-6 -->
-
-							</div><!-- renglon -->
-
-							<div class="renglon clearfix">
-
-								<div class="span c-6">
-									<input type="text" data-validation="required" name="calle" class="span c-11">
-									<label for="calle" class="span c-11">Calle</label>
-								</div><!-- span c-6 -->
-								<div class="span c-6">
-									<input type="text" data-validation="number" name="numero-exterior" class="span c-12">
-									<label for="numero-exterior" class="span c-12">Número exterior</label>
-								</div><!-- span c-6 -->
-
-							</div><!-- renglon -->
-
-							<div class="renglon clearfix">
-
-								<div class="span c-6">
-									<input type="text" name="numero-interior" class="span c-11">
-									<label for="numero-interior" class="span c-11">Número interior</label>
-								</div><!-- span c-3 -->
-								<div class="span c-6">
-									<input type="text" data-validation="required" name="colonia" class="span c-12">
-									<label for="colonia" class="span c-12">Colonia</label>
-								</div><!-- span c-3 -->
-
-							</div><!-- renglon -->
-
-							<div class="renglon clearfix">
-
-								<div class="span c-6">
-									<input type="text" data-validation="required" name="del-mun" class="span c-11">
-									<label for="del-mun" class="span c-11">Delegación / Municipio</label>
-								</div><!-- span c-3 -->
-								<div class="span c-6">
-									<input type="text" data-validation="required" name="ciudad" class="span c-12">
-									<label for="ciudad" class="span c-12">Ciudad</label>
-								</div><!-- span c-3 -->
-
-							</div><!-- renglon -->
-
-							<div class="renglon clearfix">
-
-								<div class="span c-6">
-									<input type="text" data-validation="required" name="estado" class="span c-11">
-									<label for="estado" class="span c-11">Estado</label>
-								</div><!-- span c-3 -->
-								<div class="span c-6">
-									<input type="text" data-validation="number" name="cp" class="span c-12">
-									<label for="cp" class="span c-12">C.P.</label>
-								</div><!-- span c-3 -->
-
-							</div><!-- renglon -->
-
-							<div class="renglon renglon1 clearfix">
-
-								<div class="span c-12">
-									<h3>¿Cómo te enteraste?</h3>
-								</div><!-- span c-12 -->
-
-							</div><!-- renglon -->
-
-							<div class="renglon renglon1 clearfix">
-
-								<div class="span c-2">
-									<input type="radio" value="invitacion" name="enteraste" class="columna c-2">
-									<label for="" class="columna c-10">Invitación</label>
-								</div><!-- span c-3 -->
-								<div class="span c-2">
-									<input type="radio" value="expografica" name="enteraste" class="columna c-2">
-									<label for="" class="columna c-10">Expográfica</label>
-								</div><!-- span c-3 -->
-								<div class="span c-2">
-									<input type="radio" value="correo electrónico" name="enteraste" class="columna c-2">
-									<label for="" class="columna c-10">Correo electrónico</label>
-								</div><!-- span c-3 -->
-								<div class="span c-2">
-									<input type="radio" value="no aplica" name="enteraste" class="columna c-2">
-									<label for="" class="columna c-10">No Aplica</label>
-								</div><!-- span c-3 -->
-								<div class="columna c-1">
-									<input type="radio" value="otro" name="enteraste" class="columna c-4">
-									<label for="" class="columna c-8">Otro</label>
-								</div><!-- span c-3 -->
-
-							</div><!-- renglon -->
-
-							<div class="renglon renglon1 clearfix">
-
-								<div id="otro" class="span c-12 hide">
-									<input type="text" name="otro" class="span c-11">
-									<label for="otro" class="span c-11">Otro</label>
-								</div><!-- span c-12 -->
-
-							</div><!-- renglon -->
-
-							<div class="renglon renglon1 clearfix">
-
-								<div class="span c-12">
-									<div class="span c-12 small-6">
-										<h3>Área de interés</h3>
-									</div><!-- span c-12 -->
-									<select name="area" class="span c-4 small-6">
-										<option selected="" value="elige un área de interés">Elige una</option>
-										<option value="Impresión general comercial">Impresión general comercial</option>
-										<option value="Etiquetas y empaque">Etiquetas y empaque</option>
-										<option value="Gran formato">Gran formato</option>
-										<option value="Correo directo y Trans Promo">Correo directo y Trans Promo</option>
-										<option value="Especialidad de fotografía">Especialidad de fotografía</option>
-										<option value="Editorial">Editorial</option>
-										<option value="No aplica">No aplica</option>
-									</select>
-									<div class="columna c-12 renglon">
-									<input type="checkbox" checked="" value="1" name="mas-info"> Deseo recibir más información<br>
-								</div>
-								</div><!-- span c-12 -->
-
-							</div><!-- renglon -->
-
-							<div class="renglon renglon1 clearfix acepto">
+				<div class="span c-4 medium-4 small-4">
+					<input type="email" data-validation="email" name="correo" class="span c-11">
+					<label for="correo" class="span c-11">Correo electrónico</label>
+				</div><!-- span c-3 -->
+				<div class="span c-4 medium-4 small-4">
+					<input type="tel" data-validation="required" name="telefono" class="span c-11">
+					<label for="telefono" class="span c-11">Teléfono</label>
+				</div><!-- span c-3 -->
+				<div class="span c-4 medium-4 small-4">
+					<input type="tel" name="celular" class="span c-12 medium-12 small-12">
+					<label for="celular" class="span c-12 medium-12 small-12">Celular</label>
+				</div><!-- span c-3 -->
 
 
-								<div class="columna c-8 medium-8 small-12 renglon renglon1">
-									Al registrar mis datos, acepto que EXPOGRÁFICA me mantenga informado(a) sobre sus actividades e información relevante.
-									<br/>
-									Para revisar el aviso de privacidad de Dscoop, <a target="_blank" href="http://dscoop.org/p/cm/ld/fid=2">haz click aquí</a>.
-									<br/>
-									Para revisar el aviso de privacidad de ANIDIGRAF, <a target="_blank" href="http://www.anidigraf.com.mx/aviso/aviso_de_privacidad.pdf">haz click aquí</a>.
-								</div>
+			</div><!-- renglon -->
 
-								<div class="columna c-3 medium-4 right small-12 renglon renglon1">
-									<input type="submit" value="enviar" class="boton columna c-12 medium-12 small-12">
-								</div>
+			<div class="renglon clearfix">
+
+				<div class="span c-6">
+					<input type="text" data-validation="required" name="empresa" class="span c-11">
+					<label for="empresa" class="span c-11">Empresa</label>
+				</div><!-- span c-6 -->
+				<div class="span c-6">
+					<input type="text" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" value="dd" name="dia" class="span c-4">
+					<input type="text" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" value="mm" name="mes" class="span c-4">
+					<input type="text" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" value="aaaa" name="anio" class="span c-4">
+					<label for="nacimiento" class="span c-12">Fecha de nacimiento</label>
+				</div><!-- span c-6 -->
+
+			</div><!-- renglon -->
+
+			<div class="renglon clearfix">
+
+				<div class="span c-6">
+					<input type="text" data-validation="required" name="giro" class="span c-11">
+					<label for="giro" class="span c-11">Giro</label>
+				</div><!-- span c-3 -->
+				<div class="span c-6">
+					<input type="text" data-validation="required" name="cargo" class="span c-12">
+					<label for="cargo" class="span c-12">Cargo</label>
+				</div><!-- span c-6 -->
+
+			</div><!-- renglon -->
+
+			<div class="renglon clearfix">
+
+				<div class="span c-6">
+					<input type="text" data-validation="required" name="calle" class="span c-11">
+					<label for="calle" class="span c-11">Calle</label>
+				</div><!-- span c-6 -->
+				<div class="span c-6">
+					<input type="text" data-validation="number" name="numero-exterior" class="span c-12">
+					<label for="numero-exterior" class="span c-12">Número exterior</label>
+				</div><!-- span c-6 -->
+
+			</div><!-- renglon -->
+
+			<div class="renglon clearfix">
+
+				<div class="span c-6">
+					<input type="text" name="numero-interior" class="span c-11">
+					<label for="numero-interior" class="span c-11">Número interior</label>
+				</div><!-- span c-3 -->
+				<div class="span c-6">
+					<input type="text" data-validation="required" name="colonia" class="span c-12">
+					<label for="colonia" class="span c-12">Colonia</label>
+				</div><!-- span c-3 -->
+
+			</div><!-- renglon -->
+
+			<div class="renglon clearfix">
+
+				<div class="span c-6">
+					<input type="text" data-validation="required" name="del-mun" class="span c-11">
+					<label for="del-mun" class="span c-11">Delegación / Municipio</label>
+				</div><!-- span c-3 -->
+				<div class="span c-6">
+					<input type="text" data-validation="required" name="ciudad" class="span c-12">
+					<label for="ciudad" class="span c-12">Ciudad</label>
+				</div><!-- span c-3 -->
+
+			</div><!-- renglon -->
+
+			<div class="renglon clearfix">
+
+				<div class="span c-6">
+					<input type="text" data-validation="required" name="estado" class="span c-11">
+					<label for="estado" class="span c-11">Estado</label>
+				</div><!-- span c-3 -->
+				<div class="span c-6">
+					<input type="text" data-validation="number" name="cp" class="span c-12">
+					<label for="cp" class="span c-12">C.P.</label>
+				</div><!-- span c-3 -->
+
+			</div><!-- renglon -->
+
+			<div class="renglon renglon1 clearfix">
+
+				<div class="span c-12">
+					<h3>¿Cómo te enteraste?</h3>
+				</div><!-- span c-12 -->
+
+			</div><!-- renglon -->
+
+			<div class="renglon renglon1 clearfix">
+
+				<div class="span c-2">
+					<input type="radio" value="invitacion" name="enteraste" class="columna c-2">
+					<label for="" class="columna c-10">Invitación</label>
+				</div><!-- span c-3 -->
+				<div class="span c-2">
+					<input type="radio" value="expografica" name="enteraste" class="columna c-2">
+					<label for="" class="columna c-10">Expográfica</label>
+				</div><!-- span c-3 -->
+				<div class="span c-2">
+					<input type="radio" value="correo electrónico" name="enteraste" class="columna c-2">
+					<label for="" class="columna c-10">Correo electrónico</label>
+				</div><!-- span c-3 -->
+				<div class="span c-2">
+					<input type="radio" value="no aplica" name="enteraste" class="columna c-2">
+					<label for="" class="columna c-10">No Aplica</label>
+				</div><!-- span c-3 -->
+				<div class="columna c-1">
+					<input type="radio" value="otro" name="enteraste" class="columna c-4">
+					<label for="" class="columna c-8">Otro</label>
+				</div><!-- span c-3 -->
+
+			</div><!-- renglon -->
+
+			<div class="renglon renglon1 clearfix">
+
+				<div id="otro" class="span c-12 hide">
+					<input type="text" name="otro" class="span c-11">
+					<label for="otro" class="span c-11">Otro</label>
+				</div><!-- span c-12 -->
+
+			</div><!-- renglon -->
+
+			<div class="renglon renglon1 clearfix">
+
+				<div class="span c-12">
+					<div class="span c-12 small-6">
+						<h3>Área de interés</h3>
+					</div><!-- span c-12 -->
+					<select name="area" class="span c-4 small-6">
+						<option selected="" value="elige un área de interés">Elige una</option>
+						<option value="Impresión general comercial">Impresión general comercial</option>
+						<option value="Etiquetas y empaque">Etiquetas y empaque</option>
+						<option value="Gran formato">Gran formato</option>
+						<option value="Correo directo y Trans Promo">Correo directo y Trans Promo</option>
+						<option value="Especialidad de fotografía">Especialidad de fotografía</option>
+						<option value="Editorial">Editorial</option>
+						<option value="No aplica">No aplica</option>
+					</select>
+					<div class="columna c-12 renglon">
+					<input type="checkbox" checked="" value="1" name="mas-info"> Deseo recibir más información<br>
+				</div>
+				</div><!-- span c-12 -->
+
+			</div><!-- renglon -->
+
+			<div class="renglon renglon1 clearfix acepto">
 
 
-							</div><!-- renglon -->
+				<div class="columna c-8 medium-8 small-12 renglon renglon1">
+					Al registrar mis datos, acepto que EXPOGRÁFICA me mantenga informado(a) sobre sus actividades e información relevante.
+					<br/>
+					Para revisar el aviso de privacidad de Dscoop, <a target="_blank" href="http://dscoop.org/p/cm/ld/fid=2">haz click aquí</a>.
+					<br/>
+					Para revisar el aviso de privacidad de ANIDIGRAF, <a target="_blank" href="http://www.anidigraf.com.mx/aviso/aviso_de_privacidad.pdf">haz click aquí</a>.
+				</div>
 
-						</form>
-		  <!--
-						<div class="span c-1 small-12 right">
+				<div class="columna c-3 medium-4 right small-12 renglon renglon1">
+					<input type="submit" value="enviar" class="boton columna c-12 medium-12 small-12">
+				</div>
 
-							<img class="columna small-12 ad_box" src="" alt="">
-							<img class="columna small-12 ad_box" src="" alt="">
-							<img class="columna small-12 ad_box" src="" alt="">
 
-							<img class="columna small-12 ad_box" src="" alt="">
+			</div><!-- renglon -->
 
-						</div><!-- columna c-2 -->
+		</form>
 		</div>
 	  </section>
 	  <div class="container6">
 		<div class="container">
 		  <div class="last1">
 			<h3>Visita el sitio de Dscoop para conocer más</h3>
-			<img src="img/last.png">
+			<a target="_blank" href="http://dscoop.org/">
+				<img src="img/last.png">
+			</a>
 		  </div>
 		</div>
 	  </div>

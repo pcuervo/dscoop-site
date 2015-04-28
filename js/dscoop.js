@@ -1,12 +1,8 @@
 (function($){
-
 	"use strict";
-
 	$(function(){
-
-		$(".primer_campo").focus();
+		//$(".primer_campo").focus();
 		activarCampoOtro();
-
 	});
 
 	// Funciones
@@ -20,9 +16,9 @@
 			}
 		});
 	}
-	
-	
+
+
 	function getURLParameter(name) {
-  		return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null}
+		return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null}
 
 })(jQuery);
