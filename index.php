@@ -14,15 +14,14 @@
 <body>
 	<div id="container">
 	  <header>
-		<div class="container">
+		<div class="container clearfix">
 			<div class="navbar-header">
 				<a href="index.html" class="navbar-brand" style="padding-top: 19px; padding-bottom: 19px;">
 					<img src="img/logo.png" alt="">
 				</a>
-				<img src="img/expografica.jpg" alt="">
-			</div>
-			<div class="navbar">
-				<ul>
+				<img class="expografica" src="img/expografica.jpg" alt="">
+			</div><div class="navbar">
+				<ul class="clearfix">
 					<li><a href="#main-container4">Speakers</a></li>
 					<li><a href="#container6">Agenda</a></li>
 					<li><a href="#container5">Registrate</a></li>
@@ -126,8 +125,9 @@
 	  <section id="container6">
 	   <div class="container"><h3>Agenda</h3>
 		  <div class="time-div-main">
-		  <img src="img/agenda.jpg" alt=""></img>
+				<img src="img/agenda.jpg" alt=""></img>
 		  </div>
+		  <p class="text-center"><small>*La agenda puede sufrir cambios sin previo aviso</small></p>
 	  <div class="button1"><a href="Agenda_DscoopMX.pdf" target="_blank"><input class="boton agenda-btn" value="Descargar Agenda" type="submit"></a></div>
 
 	  </div>
@@ -392,7 +392,10 @@
 		$(function(){
 			$('.navbar a').click(function(e){
 				e.preventDefault();
-				$('html,body').scrollTo(this.hash,this.hash);
+				var position = $(this.hash).offset().top;
+				var alturaHeader = $('header').height();
+				position = position - 20 - alturaHeader;
+				$('html, body').animate({scrollTop: position}, 350);
 			});
 		});
 

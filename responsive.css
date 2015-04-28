@@ -1,19 +1,19 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 .speaker-img {
 	width:50%;
-	 
+
 }
 .speaker-about {
 	width:50% ;
-	 
+
 }
 .speaker1 .speaker-img {
 	width:50% ;
-	 
+
 }
 .speaker1 .speaker-about {
 	width:50% ;
-	 
+
 }
 
 .navbar {
@@ -22,9 +22,6 @@
 }
 
 .navbar-brand {
- /*margin-left: 17rem;*/
- padding-bottom: 19px;
- padding-top: 19px;
 }
  .container > h2 {
  color: #25a9df;
@@ -189,20 +186,20 @@ background:none !important;
 @media (min-width: 414px) and (max-width: 736px) {
  .speaker-img {
 	width:100%;
-	 
+
 }
 
 .speaker-about {
 	width:100% ;
-	 
+
 }
 .speaker1 .speaker-img {
 	width:100% ;
-	 
+
 }
 .speaker1 .speaker-about {
 	width:100% ;
-	 
+
 }
  .left-content {
  color: #fff;
@@ -300,7 +297,7 @@ background:none !important;
     background: none repeat scroll 0 0 #fff;
     height: auto;
     /*margin: 205px auto -37px;*/
-    
+
     margin: 90px auto -37px;
     text-align: center;
     width: 100%;
@@ -328,19 +325,19 @@ background:none !important;
 }
  .speaker-img {
 	width:100%;
-	 
+
 }
 .speaker-about {
 	width:100% ;
-	 
+
 }
 .speaker1 .speaker-img {
 	width:100% ;
-	 
+
 }
 .speaker1 .speaker-about {
 	width:100% ;
-	 
+
 }
 select[name="area"] {
     margin-top: 20px;
@@ -470,7 +467,7 @@ text-align:center;
  float: left;
  height: 38px;
  padding: 12px;
- 
+
  width: 62%;
 }
 .tab-info2 {
@@ -489,19 +486,19 @@ text-align:center;
 .button1{width:68% !important;}
  .speaker-img {
 	width:100%;
-	 
+
 }
 .speaker-about {
 	width:100% ;
-	 
+
 }
 .speaker1 .speaker-img {
 	width:100% ;
-	 
+
 }
 .speaker1 .speaker-about {
 	width:100% ;
-	 
+
 }
   /* line 296, style.less */
   .columna.small-1 {
@@ -624,5 +621,3 @@ text-align:center;
     font: 10px / 12px 'dscoop regular';
   }
 }
-
- 

@@ -99,9 +99,23 @@ header {
 }
 .navbar-header {
 	float: left;
+	display: inline-block;
+	vertical-align: middle;
 }
+.text-center{ text-align: center; }
+.navbar-brand{
+	display: inline-block;
+	padding: 0 !important;
+}
+
+.expografica{
+	margin-left: 10px;
+}
+
 .navbar {
 	float:right;
+	display: inline-block;
+	vertical-align: middle;
 }
 .navbar ul {
 	list-style: outside none none;
